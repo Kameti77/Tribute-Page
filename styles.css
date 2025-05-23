@@ -1,0 +1,117 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://st2.depositphotos.com/1000176/6305/i/600/depositphotos_63050099-stock-photo-grungy-old-paper.jpg);
+    min-height: 100vh;
+    background-repeat: no-repea;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* Use flexbox for content alignment */
+    flex-direction: column;
+    /* Align children in column */
+    position: relative;
+}
+
+.first {
+    text-align: center;
+    width: 95%;
+    margin: 20px auto;
+    z-index: -1;
+    backdrop-filter: blur(16px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 9px;
+}
+
+#title {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+.first p {
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+#topic {
+    position: relative;
+}
+
+#img-div {
+    border: 1px solid black;
+    width: 70vw;
+    height: 70vw;
+    max-width: 700px;
+    max-height: 700px;
+    backdrop-filter: blur(6px);
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 9px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#tribute-info {
+    border: 1px solid tranparent;
+    /*margin:auto;
+  justify-content:center;
+  align-items: center;
+  width:85%;*/
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+span {
+    font-weight: bold;
+}
+
+li {
+    margin: auto 20% auto 25%;
+    padding: auto;
+    font-size: 120%;
+}
+
+h4,
+footer {
+    text-align: center;
+    margin: 0;
+}
+
+a {
+    color: blue;
+}
+
+#image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+h4 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+    margin: auto;
+    width: 90%;
+}
+
+#quote {
+    text-align: right;
+    padding-bottom: 45px;
+    padding-right: 10px;
+}
+
+footer {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
