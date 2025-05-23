@@ -13,3 +13,6 @@ This repository contains a tribute page honoring Nelson Mandela. It showcases hi
 
 ## Author
 Kameti Kumbi
+
+## Link
+https://kameti77.github.io/Tribute-Page/
